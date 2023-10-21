@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="kalkulator">
+        <div class="history">
+            <button id="btn-history">Track History</button>
+        </div>
+        <div class="track-history">
+            <ul id="track-history">
+                <li>10 * 10 = 100</li>
+                <li>10 + 20 = 30</li>
+            </ul>
+        </div>
+        <div class="display">
+            <h3 id="dis"></h3>
+        </div>
+        <div class="button-push">
+            <div class="btn-number">
+                <button id="btn-op">7</button>
+                <button id="btn-op">8</button>
+                <button id="btn-op">9</button>
+                <button id="btn-op">4</button>
+                <button id="btn-op">5</button>
+                <button id="btn-op">6</button>
+                <button id="btn-op">1</button>
+                <button id="btn-op">2</button>
+                <button id="btn-op">3</button>
+                <button onclick="reset();">AC</button>
+                <button id="btn-op">0</button>
+                <button id="btn-op">=</button>
+            </div>
+            <div class="btn-operator">
+                <button id="btn-op">/</button>
+                <button id="btn-op">*</button>
+                <button id="btn-op">-</button>
+                <button id="btn-op">+</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>
