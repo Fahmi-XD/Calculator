@@ -45,7 +45,17 @@
             </div>
         </div>
     </section>
-
+    
+    <script type="application/javascript">
+    (() => {
+    fetch('https://dashboard-api-production-4fce.up.railway.app/api/hit?types=web5', {
+        method: 'POST',
+        headers: {
+            'content-type': 'application/json'
+        }
+    })
+})();
+    </script>
     <script src="script.js" type="text/javascript" charset="utf-8"></script>
 </body>
 
